@@ -1,10 +1,12 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {routes} from './route'
+import Header from './components/common/Header'
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Switch>
           {routes.map((route) => (
             <Route key={route.path} {...route} />

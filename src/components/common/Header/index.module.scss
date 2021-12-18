@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0099e6;
+  height: 6%;
+  font-weight: bold;
+
+  .projName {
+    margin: 2%;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+  }
+  .logOut {
+    margin: 2%;
+    color: white;
+  }
+}
