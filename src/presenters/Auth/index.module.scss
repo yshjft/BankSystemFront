@@ -1,4 +1,4 @@
-.loginArea {
+.loginArea, .joinArea {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,16 @@
       }
     }
     .buttonArea {
+      margin-bottom: 10%;
       text-align: center;
+    }
+    .joinArea {
+      margin-bottom: 10%;
+      text-align: center;
+      .link {
+        text-decoration: none;
+        color: #0099e6;
+      }
     }
   }
 }

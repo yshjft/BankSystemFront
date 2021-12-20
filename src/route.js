@@ -1,11 +1,8 @@
-import {
-    MainPage,
-    TestPage,
-    NotFoundPage,
-} from './pages'
+import {MainPage, TestPage, NotFoundPage, JoinPage} from './pages'
 
 export const routes = [
-    {path: '/', component: MainPage, exact: true},
-    {path: '/test', component: TestPage},
-    {path: '*', component: NotFoundPage}
+  {path: '/', component: MainPage, exact: true},
+  {path: '/join', component: JoinPage},
+  {path: '/test', component: TestPage},
+  {path: '*', component: NotFoundPage}
 ]

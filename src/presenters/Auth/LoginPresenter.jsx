@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from './index.module.scss'
 import StandardButton from '../../components/button/StandardButton'
+import {NavLink} from 'react-router-dom'
+import styles from './index.module.scss'
 
 const LoginPresenter = () => {
   function test() {
@@ -21,6 +22,11 @@ const LoginPresenter = () => {
         </div>
         <div className={styles.buttonArea}>
           <StandardButton content="로그인" clickFunc={test} />
+        </div>
+        <div className={styles.joinArea}>
+          <NavLink to="/join" className={styles.link}>
+            회원 가입
+          </NavLink>
         </div>
       </div>
     </div>
