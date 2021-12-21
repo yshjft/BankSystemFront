@@ -1,0 +1,35 @@
+.sectionArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  .sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .section {
+      margin: 0 1%;
+      border: 1px solid black;
+      height: 80%;
+      width: 30%;
+    }
+  }
+  @media (max-width: 1600px) {
+    .sections{
+      display: block;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      .section {
+        margin: 2% 0%;
+        border: 1px solid black;
+        height: 30%;
+        width: 100%;
+      }
+    }
+  }
+}
+
