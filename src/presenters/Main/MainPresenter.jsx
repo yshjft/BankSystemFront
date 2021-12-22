@@ -1,4 +1,6 @@
 import React from 'react'
+import SectionLayout from '../../components/section/SectionLayout/SectionLayout'
+import UserSection from '../../components/section/UserSection/UserSection'
 import styles from './index.module.scss'
 
 const MainPage = (props) => {
@@ -6,16 +8,19 @@ const MainPage = (props) => {
     <div className={styles.sectionArea}>
       <div className={styles.sections}>
         <div className={styles.section}>
-          <div>이름</div>
-          <div>이메일</div>
-          <div>전화번호</div>
-          <div>개인정보수정</div>
+          <SectionLayout>
+            <UserSection />
+          </SectionLayout>
         </div>
         <div className={styles.section}>
-          <div>계좌</div>
+          <SectionLayout>
+            <div>계좌</div>
+          </SectionLayout>
         </div>
         <div className={styles.section}>
-          <div>카드</div>
+          <SectionLayout>
+            <div>계좌</div>
+          </SectionLayout>
         </div>
       </div>
     </div>
