@@ -1,0 +1,14 @@
+.accountSectionArea {
+  .sectionTitle {
+    padding: 5%;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  .accounts{
+    overflow: auto;
+    .account{
+      height:80px;
+      border: 1px solid black;
+    }
+  }
+}
