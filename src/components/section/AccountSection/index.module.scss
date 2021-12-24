@@ -1,14 +1,47 @@
 .accountSectionArea {
+  height: 100%;
   .sectionTitle {
     padding: 5%;
     font-weight: bold;
     font-size: 200%;
   }
   .accounts{
-    overflow: auto;
+    height: 85%;
+    overflow-Y: auto;
     .account{
-      height:80px;
-      border: 1px solid black;
+      display: flex;
+      min-height:80px;
+      border-bottom: 1px solid silver;
+      .info {
+        width: 70%;
+        .accountNum {
+          margin: 4%;
+          color: silver;
+        }
+        .balance {
+          margin: 4%;
+          font-size: 150%;
+          font-weight: bold;
+        }
+      }
+      .btn{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        button {
+          margin:1%;
+          width: 50%;
+          height: 40%;
+          font-size: 100%;
+        }
+      }
+    }
+  }
+  @media (max-width: 1400px) {
+    .accounts{
+      height: 60%;
     }
   }
 }

@@ -20,7 +20,7 @@ const MainPage = (props) => {
         </div>
         <div className={styles.section}>
           <SectionLayout>
-            <div>계좌</div>
+            <div>카드</div>
           </SectionLayout>
         </div>
       </div>
