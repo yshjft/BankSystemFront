@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  min-height: 90px;
+  border-bottom: 1px solid silver;
+  .info {
+    width: 70%;
+    .cardName {
+      margin: 4%;
+      font-size: 150%;
+      font-weight: bold;
+    }
+    .subInfo {
+      margin: 4%;
+      color: silver;
+    }
+  }
+  .btn {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    button {
+      margin:1%;
+      width: 50%;
+      height: 40%;
+      font-size: 100%;
+    }
+  }
+}

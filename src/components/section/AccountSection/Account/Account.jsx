@@ -1,7 +1,7 @@
 import React from 'react'
 import {useHistory} from 'react-router-dom'
+import StandardButton from '../../../button/StandardButton'
 import styles from './index.module.scss'
-import StandardButton from '../../button/StandardButton'
 
 const Account = (props) => {
   const accountNum = 123456789

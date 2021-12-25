@@ -1,16 +1,16 @@
-.accountSectionArea {
+.cardSectionArea {
   height: 100%;
-  .accountSectionTitle {
+  .cardSectionTitle {
     padding: 5%;
     font-weight: bold;
     font-size: 200%;
   }
-  .accounts{
+  .cards{
     height: 85%;
     overflow-Y: auto;
   }
   @media (max-width: 1400px) {
-    .accounts{
+    .cards{
       height: 60%;
     }
   }

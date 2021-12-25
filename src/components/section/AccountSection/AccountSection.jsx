@@ -1,11 +1,11 @@
 import React from 'react'
+import Account from './Account/Account'
 import styles from './index.module.scss'
-import Account from './Account'
 
 const AccountSection = (props) => {
   return (
     <div className={styles.accountSectionArea}>
-      <div className={styles.sectionTitle}>계좌</div>
+      <div className={styles.accountSectionTitle}>계좌</div>
       <div className={styles.accounts}>
         <Account />
         <Account />
